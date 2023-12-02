@@ -1,0 +1,6 @@
+[wsl2] 
+guiApplications = false
+memory = 3GB # Limits VM memory in WSL 2 to 4 GB
+processors=2 # Makes the WSL 2 VM use two virtual processors
+swap=4GB
+kernelCommandLine="sysctl.vm.swappiness=10"
